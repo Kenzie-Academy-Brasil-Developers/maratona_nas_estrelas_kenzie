@@ -76,6 +76,79 @@ nav {
 
 /* CARD*/
 
+.card {
+  height: 220px;
+  width: 360px;
+  border-radius: 5px;
+  transform-style: preserve-3d;
+  border: 4px solid transparent;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.face {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.titleCard {
+  background-color: var(--color-primary);
+  height: 46px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  padding: 10px;
+}
+
+.cardData {
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.front,
+.back {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/card-bg.png");
+  backface-visibility: hidden;
+}
+
+.front {
+  transform: rotateY(180deg);
+}
+
+.cardData > li,
+.cardData > ul,
+.cardData > ul > li {
+  width: 160px;
+  color: var(--color-primary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.front > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+}
+
 /* FOOTER */
 
 footer {
