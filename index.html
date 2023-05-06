@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="./assets/estrela.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Maratona nas Estrelas - Kenzie</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header-position">
+        <a href="https://kenzie.com.br/" target="_blank">
+          <img src="./assets/header-logo.png" alt="logotipo_kenzie" />
+        </a>
+
+        <img
+          src="./assets/header-description.png"
+          alt="logotipo_maratona nas estrelas"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Galeria Estelar</h1>
+
+        <!-- NAV BAR-->
+        <nav>
+          <ul class="navBar">
+            <li>PERSONAGENS</li>
+            <li>PLANETAS</li>
+            <li>NAVES</li>
+            <li>FILMES</li>
+            <li>TODOS</li>
+          </ul>
+        </nav>
+
+        <!-- CARDS LIST -->
+        <ul id="cardList">
+          <!-- LIST ITEM  -->
+          <li class="card flip">
+            <!-- FRONT CARD  -->
+            <div class="face front">
+              <div class="titleCard">ANAKIN SKYWALKER</div>
+              <ul class="cardData">
+                <li>Ano de Nascimento: 19BBY</li>
+                <li>Planeta : TATOOINE</li>
+              </ul>
+            </div>
+
+            <!-- BACK CARD  -->
+            <div class="face back">
+              <div class="titleCard">ANAKIN SKYWALKER</div>
+              <img src="./assets/starduck.png" alt="starduck" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer-position">
+        <img src="./assets/footer-logo.png" alt="logotipo_kenzie" />
+
+        <a
+          href="https://www.linkedin.com/school/kenzieacademybr/mycompany/"
+          target="_blank"
+        >
+          <img src="./assets/Linkedin icon.png" alt="logotipo_linkedin" />
+        </a>
+        <a
+          href="https://www.instagram.com/kenzieacademybr/?hl=eny"
+          target="_blank"
+        >
+          <img src="./assets/Instagram icon.png" alt="logotipo_instagram" />
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const card = document.querySelector(".card");
+      card.addEventListener("click", (e) => {
+        card.classList.toggle("flip");
+      });
+    </script>
+
+    <!-- <script src="./scripts/script.js"></script> -->
+  </body>
+</html>
