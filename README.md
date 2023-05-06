@@ -35,10 +35,13 @@ Projeto desenvolvido para o evento Maratona Kenzie dia 06/05/2023.
 - [Nicole Pimenta](https://www.linkedin.com/in/nicole-pimenta/)
 - [Rafael Bertoldo](https://www.linkedin.com/in/rafaeljbertoldo/)
 
-## Referências
+## Aulas para estudo
 
 - [Primeiros passos no HTML](https://www.youtube.com/watch?v=KoqDxb7ziA4)
 - [Primeiros passos no CSS](https://youtu.be/XautVe2dPcg)
+
+## Referências
+
 - [W3Schools referência HTML](https://www.w3schools.com/tags/default.asp)
 - [W3Schools referência CSS](https://www.w3schools.com/cssref/default.asp)
 - [Google Fonts](https://fonts.google.com/)
